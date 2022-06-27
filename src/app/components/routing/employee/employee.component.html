@@ -1,0 +1,10 @@
+<p>Empleado con ID: {{ employeeId }}</p>
+
+<ul>
+	<li [routerLink]="['projects']" routerLinkActive="active">Proyectos</li>
+	<li [routerLink]="['curriculum']" routerLinkActive="active">Currículum</li>
+</ul>
+
+<hr>
+
+<router-outlet></router-outlet>
